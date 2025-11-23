@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: white;
+    height: 390vh;
+
+    background-size: cover;
+    width: 100vw;
+
+}
+
+.nav-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 20px;
+    color: #3d4127;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.para {
+    text-align: center;
+    font-family: "";
+    color: #636b2f;
+    margin: 10px;
+}
+
+.button {
+    text-align: center;
+    background-color: rgb(25, 189, 244);
+    border-radius: 10px;
+    border: 1px solid lightblue;
+    color: white;
+    transform: all 1s ease 1s;
+    font-weight: bold;
+
+}
+
+.button:hover {
+    background-color: #85193C;
+    transform: scale(1.5);
+
+}
+
+.text-align {
+    text-align: center;
+}
+
+.company-heading {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Lobster";
+}
+
+.company-img {
+    height: 25vh;
+    width: 25vw;
+    border-radius: 10px;
+    margin: 5px;
+    transition: all 1s ease 0s;
+
+    transition: transform;
+}
+
+.company-img:hover {
+    height: 30vh;
+    width: 30vw;
+    transform: scale(1), translateY(20);
+}
+
+.company-para {
+    font-size: 15px;
+    margin: 5px;
+    font-family: "Bree-Serif";
+}
+
+.bg-about {
+    background-color: #B6CEB4;
+    height: 80vh;
+    padding: 20px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.heading-about {
+    font-size: 35px;
+    color: black;
+    font-family: "Monoton";
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.discription {
+    text-align: center;
+    font-family: "Bree-Serif";
+}
+
+.Mission {
+    background-color: #ffffff;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.para-Mission {
+    font-family: "Caveat";
+}
